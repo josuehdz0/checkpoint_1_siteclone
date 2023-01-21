@@ -1,0 +1,50 @@
+:root{
+  --headercolor:  rgb(179, 220, 188);
+  --lightcard:  rgba(255, 255, 255, 0.812);
+  --subtle:  rgb(197, 201, 209);
+  --lightestcard:  rgb(252, 253, 255);
+
+}
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.containter_one{
+  background-image: url('mentalhealth.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.header_cute{
+  background-color:var(--headercolor);
+}
+.formcard{
+  background-color: var(--lightcard) ;
+  /* box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.229); */
+}
+.spill{
+  transform: translateY(5vh);
+}
+
+.dark_row{
+  background-color: var(--headercolor);
+}
+
+.subtle_row{
+  background-color: var(--headercolor);
+}
+.ltformcard{
+  background-color: var(--lightestcard) ;
+  /* box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.229); */
+}
+.smformcard{
+  background-color: var(--lightcard) ;
+  height: 22vh;
+  /* box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.229); */
+}
+
+.bgformcard{
+  background-color: var(--lightcard) ;
+  height: 30vh;
+  /* box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.229); */
+}
