@@ -20,6 +20,7 @@
 }
 .header_cute{
   background-color:var(--headercolor);
+  box-shadow: 0px 2px 15px #00000031;
 }
 
 .toi{
@@ -64,12 +65,35 @@
 }
 .smformcard{
   background-color: var(--lightcard) ;
-  height: 22vh;
+  min-height: 25vh;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  place-items: center;
   /* box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.229); */
 }
 
 .bgformcard{
   background-color: var(--lightcard) ;
-  height: 30vh;
+  min-height: 40vh;
+  margin-bottom: 20px;
+  margin-top: 20px;
   /* box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.229); */
+}
+
+@media screen and (max-width: 768px) {
+
+  .brain-img{
+    height: 35vh;
+    
+  }
+
+  
+
+}
+@media screen and (min-width:769px) {
+  .spill-md{
+    transform: translateY(8vh);
+}
+  
 }
