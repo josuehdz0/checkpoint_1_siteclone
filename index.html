@@ -20,6 +20,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.0.96/css/materialdesignicons.min.css"
+    integrity="sha512-fXnjLwoVZ01NUqS/7G5kAnhXNXat6v7e3M9PhoMHOTARUMCaf5qNO84r5x9AFf5HDzm3rEZD8sb/n6dZ19SzFA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <style>
     body.debug .container,
     body.debug .container-fluid {
@@ -43,11 +51,11 @@
 <body class="">
   <!-- SECTION Header -->
   <header class="containter-fluid">
-    <div class="p-2 header_cute">
+    <div class="p-2 header_cute whitefont">
       <!-- <div class="row"> -->
-      <div class=" d-flex justify-content-around text-center">
+      <div class=" d-flex justify-content-around text-center bolder">
         <i class="bi bi-cloud-sun-fill"></i>
-        <h6> MONARCH BEHAVIORAL HEALTH</h6>
+        <h4> MONARCH BEHAVIORAL HEALTH</h4>
       </div>
       <!-- </div> -->
     </div>
@@ -73,7 +81,7 @@
 
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
               </div>
-              <div class="d-flex justify-content-evenly">
+              <div class="d-flex justify-content-between">
                 <div class="mb-3">
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Phone">
                 </div>
@@ -95,9 +103,9 @@
             </form>
           </div>
         </div>
-        <div class="col-6 d-flex align-items-center">
-          <div>
-            <h6>TEXT OVER IMAGE</h6>
+        <div class="col-6 d-flex align-items-baseline p-5">
+          <div class="toi ps-4 ">
+            <h3 class="bolder">Who We Are</h3>
             <p>Monarch was established in Meridian, Idaho in 2013. We are a
               growing group of professionals that love our community and are committed to helping people thrive.</p>
           </div>
@@ -107,21 +115,22 @@
     <!-- SECTION 2nd container with spill -->
     <div class="container-fluid">
       <div class="row justify-content-evenly dark_row align-items-center pt-4 pb-4">
-        <div class="col-4">
+        <div class="col-4 whitefont">
           <h3>Who We Serve</h3>
           <p>We provide services for those with the following insurance plans; Blue Cross, Regence, Aetna, Select
             Health, United Health Care, Medicaid and Medicare. We also offer self pay options.</p>
         </div>
         <div class="col-6 ">
           <!-- NOTE how do i spill this? Add padding, also transform: translateY() -->
-          <div class="formcard shadow p-3  bg-body-tertiary rounded spill">
-            <h4 class="text-center">What we provide</h4>
+          <div class="formcard2 shadow p-5  bg-body-tertiary rounded spill">
+            <h3 class="text-center">What we provide</h3><br>
             <div>
-              <p>Parent-Child Interaction Therapy</p>
-              <p>Family Counseling</p>
-              <p>Eye Movement Desensitization and Reprocessing (EMDR)</p>
-              <p>Couple Counseling</p>
-              <p>Court or Custody Related Services</p>
+
+              <h5> <i class="mdi mdi-account"></i> Individual Counseling</h5>
+              <h5><i class="mdi mdi-account-multiple-outline"></i> Couples Counseling</h5>
+              <h5><i class="mdi mdi-human-male-female-child"></i> Family Counseling</h5>
+              <h5><i class="mdi mdi-account-child"></i> Parent-Child Interaction Therapy</h5>
+              <h5><i class="mdi mdi-eye-outline"></i> Eye Movement Desensitization and Reprocessing (EMDR)</h5>
             </div>
 
           </div>
@@ -149,23 +158,26 @@
     <div class="container-fluid">
       <div class="row justify-content-evenly subtle_row p-5 align-items-center">
         <div class="col-3 text-center smformcard shadow p-3 bg-body-tertiary rounded">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda cumque amet veritatis facilis
-            esse.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h5 class="mdi mdi-format-quote-open d-flex"></h5>
+          <p> Professional, warm, caring, and a great experience! I could tell my wellness was their top priority.
+            Highly recommend!</p>
+          <p>- Jennifer Cobb</p>
         </div>
         <div class="col-3 text-center bgformcard shadow p-3 bg-body-tertiary rounded ">
           <div class="align-items-center">
             <h2>* * *</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda cumque amet veritatis facilis
-              esse.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Talk about getting to talk to REAL people. Everyone at every touch point at Monarch is down to earth,
+              while still being professional. I love that no one is turned away because they really want to serve the
+              community. Monarch is a great place to get help for families and people who feel at the wit's end.</p>
+            <p>- Chanel Johnson</p>
           </div>
 
         </div>
         <div class="col-3 text-center smformcard shadow p-3 bg-body-tertiary rounded">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda cumque amet veritatis facilis
-            esse.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <h5 class="mdi mdi-format-quote-open d-flex"></h5>
+          <p> Supportive and compassionate team! Love the work that they are doing with their clients in the community.
+            Highly recommend!</p>
+          <p>- Amanda Turecek</p>
         </div>
       </div>
     </div>
@@ -173,19 +185,22 @@
     <div class="container-fluid p-5">
       <div class="row justify-content-center">
         <div class="col-8">
-          <h2>Lorem ipsum dolor sit amet.</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quia eius rerum ipsum, illo temporibus.</p>
+          <h2>Monarch Behavioral Health</h2><br>
+          <p>Call to Schedule 208-340-1688 Fax 208-887-3660</p>
+          <p>2068 South Eagle Road, Meridian, Idaho 83642, United States
+          </p>
+
         </div>
       </div>
     </div>
   </main>
 
   <footer>
-    <div class="container-fluid subtle_row pt-5 pb-5">
+    <div class="container-fluid subtle_row pt-5 pb-5 whitefont">
       <div class="row justify-content-center text-center">
-        <div class="col-8">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aperiam nisi ducimus quisquam alias
-            necessitatibus.</p>
+        <div class="col-8 pb-1">
+          <p>Copyright © 2017 Monarch Behavioral Health, LLC - All Rights Reserved.</p>
+          <p>Contact Us/Make Payment</p>
         </div>
       </div>
     </div>

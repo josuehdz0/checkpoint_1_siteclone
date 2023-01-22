@@ -1,5 +1,5 @@
 :root{
-  --headercolor:  rgb(179, 220, 188);
+  --headercolor:  #0e5b62;
   --lightcard:  rgba(255, 255, 255, 0.812);
   --subtle:  rgb(197, 201, 209);
   --lightestcard:  rgb(252, 253, 255);
@@ -8,22 +8,40 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+.bolder{
+  font-family: 'Poppins', sans-serif;
+}
 
 
 .containter_one{
-  background-image: url('mentalhealth.jpeg');
+  background-image: url('mentalhealth2.jpg');
   background-position: center;
   background-size: cover;
 }
 .header_cute{
   background-color:var(--headercolor);
 }
+
+.toi{
+  border-left: 5px solid #0e5b62;
+}
+
 .formcard{
   background-color: var(--lightcard) ;
   /* box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.229); */
 }
+
+.formcard2{
+  background-color: #d5e0e1 ;
+  /* box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.229); */
+}
+
 .spill{
-  transform: translateY(5vh);
+  transform: translateY(8vh);
+}
+
+.whitefont{
+  color: aliceblue;
 }
 
 .dark_row{
