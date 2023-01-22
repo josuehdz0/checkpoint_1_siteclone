@@ -39,6 +39,13 @@
 .spill{
   transform: translateY(8vh);
 }
+.photoheight{
+  height: 55vh;
+}
+/* #btcolorone{
+  background-color: var(--headercolor);
+  
+} */
 
 .whitefont{
   color: aliceblue;
