@@ -11,7 +11,11 @@
 .bolder{
   font-family: 'Poppins', sans-serif;
 }
-
+.logoht{
+  height: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
 
 .containter_one{
   background-image: url('mentalhealth2.jpg');
@@ -95,5 +99,30 @@
   .spill-md{
     transform: translateY(8vh);
 }
+  
+}
+
+@media screen and (max-width:375px){
+
+  .smallheader{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .smallogo{
+    height: 20px;
+  }
+  
+}
+
+@media screen and (max-width:320px){
+
+  .smallerheader{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    
+  }
   
 }
